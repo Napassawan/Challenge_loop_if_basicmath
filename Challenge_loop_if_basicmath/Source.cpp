@@ -31,6 +31,6 @@ int main()
 	z = sum * sum;
 	sd = ((count * y) - z) / (count * (count - 1));
 	sR = sqrt(sd);
-	printf("%.1lf\n", avr);
-	printf("%.2lf\n", sR);
+	printf("Average = %.1lf\n", avr);
+	printf("SD = %.2lf\n", sR);
 }
